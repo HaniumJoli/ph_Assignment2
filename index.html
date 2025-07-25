@@ -298,52 +298,61 @@
             </p>
           </div>
           <div
-            class="w-full flex flex-col sm:flex-row justify-center mt-10 px-4 gap-5"
+            class="w-full flex flex-col md:flex-row justify-center mt-16 px-4 gap-5"
           >
             <!-- Left two vertical cards -->
-            <div class="flex flex-col gap-5">
+            <div class="flex flex-col h-[360px] md:h-[450px] gap-5 md:flex-1/3">
               <!-- Card 1 -->
               <div
-                class="relative w-[361px] h-[192px] sm:w-[367px] sm:h-[200px] bg-[url('assets/deal-bloom.png')] bg-cover bg-center rounded-lg shadow-md p-4 text-white flex flex-col justify-center items-center"
+                class="flex-1 relative rounded-lg"
               >
+                <img src="assets/deal-bloom.png" alt="Bloom Plant" class="absolute inset-0 -z-1 w-full h-full object-cover rounded-lg" />
+                <div class="bg-black/40 rounded-lg p-4 text-white flex flex-col justify-center items-center h-full">
                 <h2 class="text-[20px] font-bold font-noto-serif">
                   60% Off | Bloom Plant
                 </h2>
                 <p class="underline text-sm font-semibold text-[16px] mt-2">
                   Shop Now
                 </p>
+                </div>
               </div>
 
               <!-- Card 2 -->
               <div
-                class="relative w-[361px] h-[192px] sm:w-[367px] sm:h-[200px] bg-[url('assets/deal-ana.png')] bg-cover bg-center rounded-lg shadow-md p-4 text-white flex flex-col justify-center items-center"
+                class="flex-1 relative rounded-lg"
               >
+                <img src="assets/deal-ana.png" alt="Ana Plant" class="absolute inset-0 -z-1 w-full h-full object-cover rounded-lg" />
+              <div class="bg-black/40 rounded-lg p-4 text-white flex flex-col justify-center items-center h-full">
                 <h2 class="text-[20px] font-bold font-noto-serif">
                   30% Off | Ana Plant
                 </h2>
                 <p class="underline text-sm font-semibold text-[16px] mt-2">
                   Shop Now
                 </p>
+                </div>
               </div>
             </div>
 
             <!-- Right wide card -->
             <div
-              class="relative w-[361px] h-[192px] sm:w-[753px] sm:h-[423.13px] bg-[url('assets/deal-zabo.png')] bg-cover bg-center rounded-lg shadow-md p-4 text-white flex flex-col justify-center items-center"
+              class="md:flex-2/3 h-[180px] md:h-[450px] relative rounded-lg"
             >
+            <img src="assets/deal-zabo.png" alt="Zabo Plant" class="absolute inset-0 -z-1 w-full h-full object-cover rounded-lg" />
+            <div class="bg-black/40 rounded-lg p-4 text-white flex flex-col justify-center items-center h-full">
               <h2 class="text-[20px] font-bold font-noto-serif">
                 25% Off | Zabo Plant
               </h2>
               <p class="underline text-sm font-semibold text-[16px] mt-2">
                 Shop Now
               </p>
+              </div>
             </div>
           </div>
         </section>
         <!--Join colorful-->
         <section>
           <div
-            class="w-full py-24 md:py-36 bg-[url('assets/news-letter-bg.png')] bg-cover bg-center p-4 flex flex-col text-white justify-center items-center"
+            class="w-full py-24 md:py-36 bg-[url('assets/news-letter-bg.png')] bg-cover bg-center px-4 flex flex-col text-white justify-center items-center"
           >
             <h2
               class="text-lg sm:text-[3rem] font-bold font-noto-serif mb-6 text-center"
@@ -354,7 +363,7 @@
               <input
                 type="email"
                 placeholder="Write email"
-                class="p-4 md:p-3 flex-1 bg-white text-black focus:outline-none"
+                class="p-4 md:p-3 flex-1 bg-white text-black focus:outline-none min-w-0"
                 required
               />
               <button type="submit" class="px-4 bg-[#E95A08] font-semibold">
